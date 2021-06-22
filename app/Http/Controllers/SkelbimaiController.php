@@ -136,4 +136,6 @@ class SkelbimaiController extends Controller
         $skelbimas->delete();
         return redirect()->route('index');
     }
+
+
 }

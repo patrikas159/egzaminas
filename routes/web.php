@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\SkelbimaiController::class, 'index'])->name('index');
 Route::resource('skelbimai', \App\Http\Controllers\SkelbimaiController::class);
+Route::post('/skelbimai/{skelbimas}/comments', [\App\Http\Controllers\CommentsController::class, 'store'])->name('store');
+
