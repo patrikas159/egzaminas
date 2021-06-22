@@ -55,6 +55,7 @@ class SkelbimaiController extends Controller
         $skelbimas->title = $request->title;
         $skelbimas->description = $request->description;
         $skelbimas->category = $request->category;
+
         $skelbimas->save();
         return redirect()->route('index');
     }

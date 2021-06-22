@@ -30,7 +30,7 @@
 
             <a href="{{ route('index') }}" class="btn btn-secondary mr-2"><i class="fa fa-arrow-left"></i> Back</a>
 
-        </form>
+
     </div>
     <hr>
     <div class="card">

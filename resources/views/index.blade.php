@@ -35,8 +35,9 @@
                         <a> Category: {{$skelbimai->category}}</a>
 
                         <br>
-
+                        <div class="desc">
                         Description: {{ $skelbimai->description }}
+                        </div>
                         <br>
 
                         <span class="badge rounded-pill bg-warning text-dark">

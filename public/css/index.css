@@ -6,3 +6,11 @@
     list-style-type: none;
     float: left;
 }
+.desc
+{
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
